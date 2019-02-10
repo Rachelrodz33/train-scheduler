@@ -65,5 +65,6 @@ $(document).ready(function(){
         $("#email-display").html(snapshot.val().email);
         $("#age-display").html(snapshot.val().age);
         $("#comment-display").html(snapshot.val().comment);
+        console.log(results)
     });
 });
